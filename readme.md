@@ -3,3 +3,12 @@
 所有的目录都是小写，多语义请加下划线，目录都是可选的，根据需要创建
   
 #### 如果想要启动一个新的单体go工程，可直接clone本仓库，然后基于它开发你的应用。
+
+
+#### 编译
+```bash
+cd .../go_project_example/app_apple
+go build  # get main.exe
+# 代码中从读取命令行输出读取配置，开发时可设置默认的测试配置路径，调试时就不必输入配置路径
+./main --conf-path=../configs/app_apple.toml
+```
