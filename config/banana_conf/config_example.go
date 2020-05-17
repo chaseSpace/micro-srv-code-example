@@ -1,4 +1,4 @@
-package apple_config
+package apple_conf
 
 import (
 	"log"

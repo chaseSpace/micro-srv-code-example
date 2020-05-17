@@ -1,4 +1,4 @@
-package banana_config
+package apple_conf
 
 import (
 	"log"

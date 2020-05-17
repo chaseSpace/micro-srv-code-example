@@ -7,8 +7,9 @@
 
 #### 编译
 ```bash
-cd .../go_project_example/app_apple
-go build  # get main.exe
-# 代码中从读取命令行输出读取配置，开发时可设置默认的测试配置路径，调试时就不必输入配置路径
+cd .../go_project_example/app/apple
+go build -o apple.exe  # get main.exe
+
+# 代码中从 命令行/ENV 读取项目配置文件
 ./main --conf-path=../configs/app_apple.toml
 ```
