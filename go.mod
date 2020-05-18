@@ -1,4 +1,4 @@
-module go_project_example
+module go_project_template
 
 go 1.13
 

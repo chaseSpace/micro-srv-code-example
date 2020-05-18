@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go_project_example/init/apple_init"
+	"go_project_template/init/apple_init"
 	"log"
 )
 
@@ -18,8 +18,8 @@ func main() {
 
 /*
 Use cmd:
-	set env GO_PROJECT_EXAMPLE with `/path/to/this-project`
-	cd /path/to/go_project_example/cmd/apple
+	set env GO_PROJECT_DIR with `/path/to/this-project`
+	cd /path/to/go_project_template/cmd/apple
 	go build -o applectl
 	./applectl help
 */

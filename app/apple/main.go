@@ -1,9 +1,9 @@
 package main
 
 import (
-	"go_project_example/app/apple/internal"
-	"go_project_example/config/apple_conf"
-	"go_project_example/init/apple_init"
+	"go_project_template/app/apple/internal"
+	"go_project_template/config/apple_conf"
+	"go_project_template/init/apple_init"
 	"log"
 	"time"
 )

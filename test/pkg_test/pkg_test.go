@@ -1,7 +1,7 @@
 package pkg_test
 
 import (
-	"go_project_example/util"
+	"go_project_template/util"
 	"testing"
 )
 

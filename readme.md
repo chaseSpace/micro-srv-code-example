@@ -7,7 +7,7 @@
 
 #### 编译
 ```bash
-cd .../go_project_example/app/apple
+cd .../go_project_template/app/apple
 go build -o apple.exe  # get main.exe
 
 # 代码中从 命令行/ENV 读取项目配置文件
